@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>APOD</title>
+</head>
+<body>
+   <div>
+
+       <header class="containerHeader">
+           <img id="icon" src="https://assets.materialup.com/uploads/2979c2d8-d5dd-4576-8f4c-40133f4d324c/preview.jpg" alt="">
+            <h1 class="tituloPrincipal">A.P.O.D.</h1>
+        </header>
+      
+        
+       <main>
+        <section class="input">
+            <p class="fraseInput">Escolha uma data:</p>
+            <input type="date" class="data" id="data">
+            <button class="pegaData">Enviar</button>
+        </section>
+
+        <section class="invisivel title">
+            <h1 class="titulo "></h1>
+        </section>  
+
+        <section class="container invisivel">
+            <div class="texto"><p class="explicaçao"></p></div>
+            <div class="imagem"></div>
+        </section>
+       </main>
+
+       <footer>
+           <div class="copyright">APOD - Resilia2021</div>
+       </footer>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+   crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</body>
+</html>
